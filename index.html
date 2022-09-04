@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Perlin noise demo</title>
+
+        <canvas id="my-canvas" width="1600" height="1000"></canvas>
+
+        <br><label><a>Width:</a></label>
+        <input type="text" id="width-field" value="30">
+
+        <br><br><label>Height:</label>
+        <input type="text" id="height-field" value="30">
+
+        <br><br><label>Scale:</label>
+        <input type="text" id="offset-field" value="4.65">
+
+        <br><br><label>Height multiplier:</label>
+        <input type="text" id="mult-field" value="7">
+
+        <br><br><label>Block size:</label>
+        <input type="text" id="block-size-field" value="50">
+
+        <br><br><button onclick="terrainGen();">Generate terrain</button>
+
+        <script src="./main.js"></script>
+        <script src="./impl.js"></script>
+
+        <script>
+            start();
+        </script>
+    </head>
+
+    <body></body>
+</html>
